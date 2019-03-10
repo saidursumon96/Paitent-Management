@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jarvis.patientmanagement">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".users.Sign_In_P"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".users.Sign_In_D" />
+        <activity android:name=".users.Sign_Up_P" />
+        <activity android:name=".users.Sign_Up_D" />
+        <activity android:name=".users.Email_Verify" />
+        <activity android:name=".users.Email_Verify_D" />
+        <activity
+            android:name=".activities.Abouts"
+            android:label="About"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".activities.Settings"
+            android:label="Settings"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".activities.Helps"
+            android:label="Helps"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".activities.Feedback"
+            android:label="Feedback"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".list.Doctor_List"
+            android:label="Doctor List"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".list.Doctor_Details"
+            android:label="Doctor Details"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".profile.Doctor_Profile"
+            android:label="Modify Doctor Profile"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".profile.Patient_Profile"
+            android:label="Modify Patient Profile"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".extra.Hospital_RecyclerView"
+            android:label="Hospital List"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".details.Hospital_Details"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".patient.Patient_List"
+            android:label="Patient List"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".patient.Patient_Details"
+            android:label="User List"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".diseases.Diseases_List"
+            android:label="Diseases List"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".diseases.Diseases_Details"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".update.Doctor_Edit"
+            android:label="Doctor Profile Edit"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".update.Patient_Edit"
+            android:label="Patient Profile Edit"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".appoinment.Appoinment_RecyclerView"
+            android:label="Appoinment List"
+            android:theme="@style/AppTheme2"/>
+    </application>
+
+</manifest>
