@@ -1,0 +1,254 @@
+<resources>
+    <string name="app_name">Patient Management</string>
+    <string name="app_name_2">Doctor Management</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_registration">Reg No</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_search">Search</string>
+    <string name="hint_edit">Edit</string>
+    <string name="hint_help">Help</string>
+    <string name="hint_sign_up_division">Division</string>
+    <string name="hint_sign_up_district">District</string>
+
+    <string name="hint_name">Full Name</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_age">Age</string>
+    <string name="hint_birthday">Birthday</string>
+    <string name="hint_expertise">Expertise On</string>
+    <string name="hint_chamber_days">Chamber Days</string>
+    <string name="hint_start_time">Start Time</string>
+    <string name="hint_end_time">End Time</string>
+    <string name="hint_gender">Gender</string>
+    <string name="hint_mobile_no">Mobile No</string>
+    <string name="hint_blood_group">Blood Group</string>
+
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_upload_image">Upload Image</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_update">UPDATE</string>
+    <string name="btn_modify">SAVE</string>
+    <string name="btn_log_in_as_doctor">Login as Doctor</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Full Name</string>
+
+    <string-array name="nav_item_activity_titles">
+        <item>Appoinment</item>
+        <item>Blood</item>
+        <item>Diseases</item>
+        <item>Hospital</item>
+    </string-array>
+
+    <string-array name="chamber_days_signup_d">
+        <item>Saturday</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+    </string-array>
+
+    <string-array name="pop_up_sign_up_expertise">
+        <item>Anesthesiologist</item>
+        <item>Cardiologist</item>
+        <item>Child Health Specialist</item>
+        <item>Colon &amp; Rectal Surgeon</item>
+        <item>Dermatologist</item>
+        <item>Gastroenterologist</item>
+        <item>Gynecologist</item>
+        <item>Internal Medicine</item>
+        <item>Medicine</item>
+        <item>Neuro Medicine</item>
+        <item>Oncologist</item>
+        <item>Oral Surgeon</item>
+        <item>Pharmacist</item>
+        <item>Plastic Surgeon</item>
+        <item>Podiatrist</item>
+        <item>Psychiatrist</item>
+        <item>Radiologist</item>
+        <item>Surgeon</item>
+        <item>Thoracic Surgeon</item>
+        <item>Urologist</item>
+        <item>Vascular Surgeon</item>
+    </string-array>
+
+    <string-array name="all_division">
+        <item>Barisal</item>
+        <item>Dhaka</item>
+        <item>Faridpur</item>
+        <item>Khulna</item>
+        <item>Mymensingh</item>
+        <item>Sylhet</item>
+        <item>Rajshahi</item>
+        <item>Rangpur</item>
+        <item>Chittagong</item>
+    </string-array>
+
+    <string-array name="div_barisal">
+        <item>Barguna</item>
+        <item>Barisal</item>
+        <item>Bhola</item>
+        <item>Jhalokathi</item>
+        <item>Patuakhali</item>
+        <item>Pirojpur</item>
+    </string-array>
+
+    <string-array name="div_sylhet">
+        <item>Habiganj</item>
+        <item>Moulvibazar</item>
+        <item>Sunamganj</item>
+        <item>Sylhet</item>
+    </string-array>
+
+    <string-array name="div_rajshahi">
+        <item>Bogra</item>
+        <item>Chapainawabganj</item>
+        <item>Joypurhat</item>
+        <item>Naogaon</item>
+        <item>Natore</item>
+        <item>Pabna</item>
+        <item>Rajshahi</item>
+        <item>Sirajganj</item>
+    </string-array>
+
+    <string-array name="div_dhaka">
+        <item>Dhaka</item>
+        <item>Gazipur</item>
+        <item>Kishoreganj</item>
+        <item>Manikganj</item>
+        <item>Munshiganj</item>
+        <item>Narayanganj</item>
+        <item>Narsingdi</item>
+        <item>Tangail</item>
+    </string-array>
+
+    <string-array name="div_faridpur">
+        <item>Faridpur</item>
+        <item>Gopalganj</item>
+        <item>Madaripur</item>
+        <item>Rajbari</item>
+        <item>Shariatpur</item>
+    </string-array>
+
+    <string-array name="div_mymensingh">
+        <item>Jamalpur</item>
+        <item>Mymensingh</item>
+        <item>Netrokona</item>
+        <item>Sherpur</item>
+    </string-array>
+
+    <string-array name="div_rangpur">
+        <item>Dinajpur</item>
+        <item>Gaibandha</item>
+        <item>Kurigram</item>
+        <item>Lalmonirhat</item>
+        <item>Nilphamari</item>
+        <item>Panchagarh</item>
+        <item>Rangpur</item>
+        <item>Thakurgaon</item>
+    </string-array>
+
+    <string-array name="div_chittagong">
+        <item>Brahmanbaria</item>
+        <item>Comilla</item>
+        <item>Chandpur</item>
+        <item>Lakshmipur</item>
+        <item>Noakhali</item>
+        <item>Feni</item>
+        <item>Khagrachhari</item>
+        <item>Rangamati</item>
+        <item>Bandarban</item>
+        <item>Chittagong</item>
+        <item>Coxs Bazar</item>
+    </string-array>
+
+    <string-array name="div_khulna">
+        <item>Bagerhat</item>
+        <item>Chuadanga</item>
+        <item>Jessore</item>
+        <item>Jhenaidah</item>
+        <item>Khulna</item>
+        <item>Kushtia</item>
+        <item>Magura</item>
+        <item>Meherpur</item>
+        <item>Narail</item>
+        <item>Satkhira</item>
+    </string-array>
+
+    <string-array name="all_district">
+        <item>Barguna</item>
+        <item>Barisal</item>
+        <item>Bhola</item>
+        <item>Jhalokathi</item>
+        <item>Patuakhali</item>
+        <item>Pirojpur</item>
+        <item>Habiganj</item>
+        <item>Moulvibazar</item>
+        <item>Sunamganj</item>
+        <item>Sylhet</item>
+        <item>Bogra</item>
+        <item>Chapainawabganj</item>
+        <item>Joypurhat</item>
+        <item>Naogaon</item>
+        <item>Natore</item>
+        <item>Pabna</item>
+        <item>Rajshahi</item>
+        <item>Sirajganj</item>
+        <item>Dhaka</item>
+        <item>Gazipur</item>
+        <item>Kishoreganj</item>
+        <item>Manikganj</item>
+        <item>Munshiganj</item>
+        <item>Narayanganj</item>
+        <item>Narsingdi</item>
+        <item>Tangail</item>
+        <item>Faridpur</item>
+        <item>Gopalganj</item>
+        <item>Madaripur</item>
+        <item>Rajbari</item>
+        <item>Shariatpur</item>
+        <item>Jamalpur</item>
+        <item>Mymensingh</item>
+        <item>Netrokona</item>
+        <item>Sherpur</item>
+        <item>Dinajpur</item>
+        <item>Gaibandha</item>
+        <item>Kurigram</item>
+        <item>Lalmonirhat</item>
+        <item>Nilphamari</item>
+        <item>Panchagarh</item>
+        <item>Rangpur</item>
+        <item>Thakurgaon</item>
+        <item>Brahmanbaria</item>
+        <item>Comilla</item>
+        <item>Chandpur</item>
+        <item>Lakshmipur</item>
+        <item>Noakhali</item>
+        <item>Feni</item>
+        <item>Khagrachhari</item>
+        <item>Rangamati</item>
+        <item>Bandarban</item>
+        <item>Chittagong</item>
+        <item>Coxs Bazar</item>
+        <item>Bagerhat</item>
+        <item>Chuadanga</item>
+        <item>Jessore</item>
+        <item>Jhenaidah</item>
+        <item>Khulna</item>
+        <item>Kushtia</item>
+        <item>Magura</item>
+        <item>Meherpur</item>
+        <item>Narail</item>
+        <item>Satkhira</item>
+    </string-array>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+</resources>
