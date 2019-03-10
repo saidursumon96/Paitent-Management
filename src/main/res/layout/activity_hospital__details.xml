@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.jarvis.patientmanagement.details.Hospital_Details">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/relativeLayout">
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/hospital_details_image"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/nopreview2"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ic_launcher"
+                android:layout_marginBottom="10dp"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Hospital Name"
+            android:id="@+id/hospital_details_name"
+            android:textColor="#000000"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_centerHorizontal="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/hospital_details_name"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Phone :"
+                android:textColor="#000000"
+                android:id="@+id/appoinment_name"
+                android:layout_alignTop="@+id/hospital_details_phone"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Hospital Phone"
+                android:id="@+id/hospital_details_phone"
+                android:textColor="#000000"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <RelativeLayout
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/hospital_call"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ic_vector_call_icon"
+                android:layout_toRightOf="@+id/hospital_details_phone"
+                android:layout_toEndOf="@+id/hospital_details_phone">
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="55dp"
+            android:layout_below="@+id/hospital_details_name"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/relativeLayout2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Address :"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textView9"
+                android:textColor="#000000"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="113dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Hospital Address"
+                    android:id="@+id/hospital_details_address"
+                    android:textColor="#000000"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Hospital Address"
+                    android:layout_below="@+id/hospital_details_address"
+                    android:textColor="#000000"
+                    android:id="@+id/hospital_details_address_2"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/relativeLayout2">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="See Location On\n   Google Maps"
+                android:id="@+id/hospital_details_location"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/hospital_map"
+                android:layout_toStartOf="@+id/hospital_map" />
+
+            <RelativeLayout
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:background="@drawable/ic_vector_location_icon"
+                android:id="@+id/hospital_map"
+                android:layout_alignTop="@+id/hospital_details_location"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="64dp"
+                android:layout_marginEnd="64dp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

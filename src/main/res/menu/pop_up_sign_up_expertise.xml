@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/expertise_anesthesiologist"
+        android:title="Anesthesiologist">
+    </item>
+
+    <item
+        android:id="@+id/expertise_cardiologist"
+        android:title="Cardiologist">
+    </item>
+
+    <item
+        android:id="@+id/expertise_child_health"
+        android:title="Child Health Specialist">
+    </item>
+
+    <item
+        android:id="@+id/expertise_colon_rectal"
+        android:title="Colon &amp; Rectal Surgeon">
+    </item>
+
+    <item
+        android:id="@+id/expertise_dermatologist"
+        android:title="Dermatologist">
+    </item>
+
+    <item
+        android:id="@+id/expertise_gastroenterologist"
+        android:title="Gastroenterologist">
+    </item>
+
+    <item
+        android:id="@+id/expertise_gynecologist"
+        android:title="Gynecologist">
+    </item>
+
+    <item
+        android:id="@+id/experqwtise_internal_medicine"
+        android:title="Internal Medicine">
+    </item>
+
+    <item
+        android:id="@+id/expertise_medicine"
+        android:title="Medicine">
+    </item>
+
+    <item
+        android:id="@+id/expertise_neuro_medicine"
+        android:title="Neuro Medicine">
+    </item>
+
+    <item
+        android:id="@+id/expertise_oncologist"
+        android:title="Oncologist">
+    </item>
+
+    <item
+        android:id="@+id/expertise_oral_surgeon"
+        android:title="Oral Surgeon">
+    </item>
+
+    <item
+        android:id="@+id/expertise_pharmacist"
+        android:title="Pharmacist">
+    </item>
+
+    <item
+        android:id="@+id/expertise_plastic_surgeon"
+        android:title="Plastic Surgeon">
+    </item>
+
+    <item
+        android:id="@+id/expertise_podiatrist"
+        android:title="Podiatrist">
+    </item>
+
+    <item
+        android:id="@+id/expertise_psychiatrist"
+        android:title="Psychiatrist">
+    </item>
+
+    <item
+        android:id="@+id/expertise_radiologist"
+        android:title="Radiologist">
+    </item>
+
+    <item
+        android:id="@+id/expertise_surgeon"
+        android:title="Surgeon">
+    </item>
+
+    <item
+        android:id="@+id/expertise_thoracic_surgeon"
+        android:title="Thoracic Surgeon">
+    </item>
+
+    <item
+        android:id="@+id/expertise_urologist"
+        android:title="Urologist">
+    </item>
+
+    <item
+        android:id="@+id/expertise_vascular_surgeon"
+        android:title="Vascular Surgeon">
+    </item>
+
+</menu>

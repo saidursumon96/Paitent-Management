@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pop_up_barisal_patuakhali"
+        android:title="Patuakhali">
+    </item>
+
+    <item
+        android:id="@+id/pop_up_barisal_barisal"
+        android:title="Barisal">
+    </item>
+
+    <item
+        android:id="@+id/pop_up_barisal_jhalokathi"
+        android:title="Jhalokathi">
+    </item>
+
+    <item
+        android:id="@+id/pop_up_barisal_barguna"
+        android:title="Barguna">
+    </item>
+
+    <item
+        android:id="@+id/pop_up_barisal_pirojpur"
+        android:title="Pirojpur">
+    </item>
+
+    <item
+        android:id="@+id/pop_up_barisal_vola"
+        android:title="Vola">
+    </item>
+
+</menu>

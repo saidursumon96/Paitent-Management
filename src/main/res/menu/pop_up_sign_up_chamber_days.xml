@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/chamber_days_saturday"
+        android:title="Saturday">
+    </item>
+
+    <item
+        android:id="@+id/chamber_days_sunday"
+        android:title="Sunday">
+    </item>
+
+    <item
+        android:id="@+id/chamber_days_monday"
+        android:title="Monday">
+    </item>
+
+    <item
+        android:id="@+id/chamber_days_tuesday"
+        android:title="Tuesday">
+    </item>
+
+    <item
+        android:id="@+id/chamber_days_wednesday"
+        android:title="Wednesday">
+    </item>
+
+    <item
+        android:id="@+id/chamber_days_thursday"
+        android:title="Thursday">
+    </item>
+
+    <item
+        android:id="@+id/chamber_days_friday"
+        android:title="Friday">
+    </item>
+
+</menu>

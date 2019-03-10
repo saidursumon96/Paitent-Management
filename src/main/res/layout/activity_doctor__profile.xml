@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#5EB5E1"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.jarvis.patientmanagement.profile.Doctor_Profile">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:gravity="center"
+                android:background="@drawable/ic_vector_square_shape"
+                android:layout_gravity="center"
+                android:layout_marginTop="290dp"
+                android:layout_marginBottom="1dp"
+                android:layout_height="1dp">
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/patient_profile_view_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                android:hint="@string/hint_name"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:inputType="textCapWords"
+                android:textColor="#ACB0BA"
+                android:textColorHint="@color/input_register" />
+
+            <EditText
+                android:id="@+id/patient_profile_view_address"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                android:hint="@string/hint_address"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:inputType="textCapWords"
+                android:textColor="#ACB0BA"
+                android:textColorHint="@color/input_register" />
+
+            <EditText
+                android:id="@+id/doctor_profile_view_email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                android:hint="@string/hint_email"
+                android:padding="10dp"
+                android:clickable="false"
+                android:focusable="false"
+                android:singleLine="true"
+                android:inputType="textCapWords"
+                android:textColor="#ACB0BA"
+                android:textColorHint="@color/input_register" />
+
+            <EditText
+                android:id="@+id/doctor_profile_view_reg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                android:hint="@string/hint_registration"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:inputType="textCapWords"
+                android:clickable="false"
+                android:focusable="false"
+                android:textColor="#ACB0BA"
+                android:textColorHint="@color/input_register" />
+
+            <EditText
+                android:id="@+id/doctor_profile_view_expertise"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                android:hint="@string/hint_expertise"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:inputType="textCapWords"
+                android:textColor="#ACB0BA"
+                android:textColorHint="@color/input_register" />
+
+            <EditText
+                android:id="@+id/doctor_profile_view_chamber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                android:hint="@string/hint_chamber_days"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:inputType="textCapWords"
+                android:textColor="#ACB0BA"
+                android:textColorHint="@color/input_register" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/patient_profile_view_address_division"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:hint="@string/hint_start_time"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:layout_weight="1.0"
+                    android:layout_marginRight="6dp"
+                    android:singleLine="true"
+                    android:textColor="#ACB0BA"
+                    android:textColorHint="@color/input_register" />
+
+                <EditText
+                    android:id="@+id/patient_profile_view_address_district"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:hint="@string/hint_end_time"
+                    android:inputType="textEmailAddress"
+                    android:layout_weight="1.0"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="#ACB0BA"
+                    android:textColorHint="@color/input_register" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/patient_profile_view_mobile"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                android:hint="@string/hint_mobile_no"
+                android:inputType="number"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="#ACB0BA"
+                android:textColorHint="@color/input_register" />
+
+            <EditText
+                android:id="@+id/patient_profile_view_age"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                android:hint="@string/hint_blood_group"
+                android:inputType="number"
+                android:clickable="false"
+                android:focusable="false"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="#ACB0BA"
+                android:textColorHint="@color/input_register" />
+
+            <EditText
+                android:id="@+id/patient_profile_view_password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                android:hint="@string/hint_password"
+                android:inputType="textCapWords"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="#ACB0BA"
+                android:textColorHint="@color/input_register" />
+
+            <Button
+                android:id="@+id/btn_update_d"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:background="#ea4c88"
+                android:text="@string/btn_update"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

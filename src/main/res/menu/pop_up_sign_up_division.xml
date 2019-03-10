@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pop_up_barisal"
+        android:title="Barisal">
+    </item>
+
+    <item
+        android:id="@+id/pop_up_dhaka"
+        android:title="Dhaka">
+    </item>
+
+    <item
+        android:id="@+id/pop_up_khulna"
+        android:title="Khulna">
+    </item>
+
+    <item
+        android:id="@+id/pop_up_sylhet"
+        android:title="Sylhet">
+    </item>
+
+    <item
+        android:id="@+id/pop_up_rajshahi"
+        android:title="Rajshahi">
+    </item>
+
+    <item
+        android:id="@+id/pop_up_rangpur"
+        android:title="Rangpur">
+    </item>
+
+    <item
+        android:id="@+id/pop_up_chittagong"
+        android:title="Chittagong">
+    </item>
+
+</menu>

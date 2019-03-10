@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_appoinment"
+            android:icon="@drawable/ic_vector_appoinment"
+            android:title="Appoinment" />
+        <item
+            android:id="@+id/nav_blood"
+            android:icon="@drawable/ic_vector_blood"
+            android:title="Blood" />
+        <item
+            android:id="@+id/nav_diseases"
+            android:icon="@drawable/ic_vector_diseases"
+            android:title="Diseases" />
+        <item
+            android:id="@+id/nav_hospital"
+            android:icon="@drawable/ic_vector_hospital_2"
+            android:title="Hospital" />
+    </group>
+
+    <item android:title="Configurations">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_vector_settings"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_vector_about"
+                android:title="About" />
+        </menu>
+    </item>
+</menu>

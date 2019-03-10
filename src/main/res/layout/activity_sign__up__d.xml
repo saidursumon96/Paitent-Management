@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#499494"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.jarvis.patientmanagement.users.Sign_Up_D">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="230dp">
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:layout_marginTop="70dp"
+                android:layout_marginBottom="10dp"
+                android:text="Doctor Registration"/>
+
+            <LinearLayout
+                android:layout_width="1dp"
+                android:gravity="center"
+                android:background="@drawable/ic_vector_square_shape"
+                android:layout_gravity="center"
+                android:layout_height="1dp">
+
+                <ImageView
+                    android:layout_width="1dp"
+                    android:id="@+id/view_image_signup_d"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/name_signup_d"
+                android:layout_marginTop="20dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                android:hint="@string/hint_name"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:inputType="textCapWords"
+                android:textColor="@color/black"
+                android:textColorHint="@color/input_register" />
+
+            <EditText
+                android:id="@+id/address_signup_d"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                android:hint="@string/hint_address"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:inputType="textCapWords"
+                android:textColor="@color/black"
+                android:textColorHint="@color/input_register" />
+
+            <EditText
+                android:id="@+id/email_signup_d"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                android:hint="@string/hint_email"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black"
+                android:textColorHint="@color/input_register" />
+
+            <EditText
+                android:id="@+id/regirtration_no_d"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                android:hint="@string/hint_registration"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/black"
+                android:textColorHint="@color/input_register" />
+
+            <EditText
+                android:id="@+id/expertise_signup_d"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                android:hint="@string/hint_expertise"
+                android:clickable="false"
+                android:focusable="false"
+                android:inputType="number"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/input_register" />
+
+            <EditText
+                android:id="@+id/chamber_days_signup_d"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                android:clickable="false"
+                android:focusable="false"
+                android:hint="@string/hint_chamber_days"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/input_register" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/start_time_signup_d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:hint="@string/hint_start_time"
+                    android:inputType="textEmailAddress"
+                    android:padding="10dp"
+                    android:layout_weight="1.0"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:layout_marginRight="6dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/input_register" />
+
+                <EditText
+                    android:id="@+id/end_time_signup_d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:hint="@string/hint_end_time"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:inputType="textEmailAddress"
+                    android:layout_weight="1.0"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/input_register" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/mobile_no_signup_d"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/white"
+                android:hint="@string/hint_mobile_no"
+                android:inputType="number"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/input_register" />
+
+            <EditText
+                android:id="@+id/blood_group_signup_d"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:clickable="false"
+                android:focusable="false"
+                android:background="@color/white"
+                android:hint="@string/hint_blood_group"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/input_register" />
+
+            <EditText
+                android:id="@+id/password_signup_d"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:background="@color/white"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/input_register" />
+
+            <CheckBox
+                android:id="@+id/doctor_signup_show_password"
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginBottom="7dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="Show Password" />
+
+            <Button
+                android:id="@+id/btnRegister_d"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:background="#ea4c88"
+                android:text="@string/btn_register"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_return_login_link_d"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dip"
+                android:background="@null"
+                android:text="@string/btn_link_to_login"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

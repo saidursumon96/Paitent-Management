@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Diseases Name"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="70dp"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/appoinment_name"
+        android:layout_alignParentTop="true" />
+
+    <RelativeLayout
+        android:layout_width="122dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/appoinment_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout"
+        android:layout_alignBottom="@+id/relativeLayout2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Cause : "
+            android:paddingLeft="10dp"
+            android:id="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Symptom : "
+            android:id="@+id/doctor_details_expertise"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="23dp"
+            android:layout_below="@+id/textView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Diagnosis : "
+            android:id="@+id/doctor_details_chamber"
+            android:layout_below="@+id/doctor_details_expertise"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="10dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="31dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Treatment : "
+            android:id="@+id/doctor_details_start"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/doctor_details_chamber"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="34dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="260dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/appoinment_name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/relativeLayout2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:id="@+id/diseases_cause"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/diseases_symptom"
+            android:paddingRight="10dp"
+            android:layout_marginTop="9dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/diseases_cause"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/diseases_diagonis"
+            android:paddingRight="10dp"
+            android:layout_below="@+id/diseases_symptom"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/diseases_treatment"
+            android:paddingRight="10dp"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/diseases_diagonis"
+            android:layout_alignRight="@+id/diseases_diagonis"
+            android:layout_alignEnd="@+id/diseases_diagonis" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Click Here For\n   More Info"
+        android:id="@+id/click_link"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp" />
+
+</RelativeLayout>
